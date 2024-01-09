@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+li{
+    list-style: none;
+}
+.text-light{
+    color: white;
+}
+.lg-heading{
+    font-size: 3.5rem;
+}
+.btn{
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    font-weight: 500;
+    /* text-transform: uppercase; */
+    margin: 0.5em 0;
+}
+.header{
+    background: rgb(249, 248, 248);
+    height: 60px;
+}
+.header .left{
+    float: left;
+    width: 50%;
+    /* border: 2px solid red; */
+    text-align: center;
+    line-height: 1;
+}
+.header .left h1{
+    padding-top: 1em;
+    font-size: 2rem;
+    font-weight: bold;
+    color: skyblue;
+}
+.header .left p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-left: 1.8em;
+}
+.header .right{
+    padding-top: 1em;
+    float: right;
+    width: 50%;
+    /* border: 2px solid green; */
+    display: block;
+    
+}
+.header .right .box1{
+    float: left;
+    width: 20%;
+    /* border: 2px solid blue; */
+    text-align: center;
+    
+}
+
+.header .right .box2{
+    float: right;
+    width: 80%;
+    text-align: left;
+    /* border: 2px solid black; */
+    /* display: block; */
+}
+.box2 li{
+    background-color: red;
+    width: 125px;
+    font-size: 2rem;
+    padding: 0.5rem;
+    color: white;
+    text-transform: uppercase;
+}
+.box1 a{
+    font-size: 1rem;
+    font-weight: 700;
+    padding-top: 10rem;
+    color: blue;
+}
+.header-content{
+    background: rgb(202, 227, 243);
+    height: 95vh;
+}
+.header-content img{
+    /* border: 2px solid red; */
+    width: 35%;
+    top: -90%;
+    left: -20%;
+    transform: translate(+90%,+20%);
+}
+.header-content h1{
+    text-align: center;
+    /* border: 2px solid blue; */
+    padding-top: 5rem;
+    font-size: 3rem;
+    font-weight: 900;
+    color: darkblue;
+}
+.header-content P{
+    padding-top: 1.5rem;
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 800;
+    color: black;
+}
+.header-content .offer{
+    font-size: 5rem;
+    color: rgb(3, 94, 129);
+    font-weight: bolder;
+    text-align: center;
+    /* border: 2px solid yellow; */
+}
+.header-content .main-content{
+    /* border: 2px solid black; */
+    /* display: inline; */
+    margin-top: 1rem;
+    width: 30%;
+    margin-left: 35%;
+}
+.header-content .main-content::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.header-content .main-content .content1{
+    /* border: 2px solid red; */
+    float: left;
+    width: 50%;
+    text-align: center;
+    background: red;
+    /* color: white; */
+}
+.header-content .main-content .content2{
+    /* border: 2px solid olive; */
+    /* display: inline; */
+    float: right;
+    width: 50%;
+    text-align: center;
+    background: rgb(0, 0, 42);
+    /* color: white; */
+}
+.header-content .main-content p{
+    color: white;
+}
+.header-content .last-content{
+    /* border: 2px solid black; */
+    display: inline;
+}
+.header-content .last-content .str{
+    /* border: 2px solid black; */
+    background: red;
+    color: white;
+}
+.showcase{
+    padding-bottom: 2rem;
+}
+.container{
+    /* border: 2px solid black; */
+    width: 40%;
+    float: left;
+}
+.container1{
+    /* border: 2px solid red; */
+    float: left;
+    width: 35%;
+}
+.container2{
+    /* border: 2px solid blueviolet; */
+    float: right;
+    width: 65%;
+    padding-left: 6rem;
+}
+.container img{
+    display: inline-block;
+    width:50%;
+    height:50%;
+    object-fit: cover;
+}
+.container2 p{
+    font-size: 2rem;
+    /* padding-left: 2rem; */
+    color: white;
+}
+.wrapper{
+    /* border: 2px solid rgb(1, 1, 46); */
+    background: rgb(1, 1, 75);
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 2rem;
+    margin-top: -12rem;
+    padding: 2rem;
+}
+.wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.wrapper .container1 h1{
+    text-align: center;
+    padding-top: 2.5rem;
+}
+.wrapper .container .container2 p{
+    padding-left: 6rem;
+}
+.wrap{
+    width: 60%;
+    float: left;
+}
+.wrap p{
+    padding-bottom: 1rem;
+    font-size: 1.3rem;
+}
+.wrap1{
+    float: left;
+    font-size: 1.6rem;
+    padding: 1.5rem;
+    font-weight: 700;
+    width: 33%;
+}
+.wrap2{
+    float: left;
+    font-size: 1.6rem;
+    padding: 1.5rem;
+    font-weight: 700;
+    width: 33%;
+}
+.wrap3{
+    float: left;
+    font-size: 1.6rem;
+    padding: 1.5rem;
+    font-weight: 700;
+    width: 33%;
+}
+.para{
+    /* border: 2px solid red; */
+    background: white;
+    float: right;
+    width: 100%;
+    margin-top: 1rem;
+}
+.para p{
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-weight: 700;
+}
+.l-content{
+    /* border: 2px solid green; */
+    float: right;
+    width: 100%;
+    margin-top: 2rem;
+}
+.l-content1{
+    float: left;
+    width: 50%;
+}
+.l-content1 p{
+    font-size: 2rem;
+    padding: 1rem;
+    font-weight: 500;
+}
+.l-content2{
+    float: right;
+    width: 20%;
+}
+.l-content2 a{
+    /* padding-left: 20rem; */
+    /* border: 2px solid red; */
+    background: red;
+    font-size: 1.6rem;
+    font-weight: 500;  
+}
+/* ############################## media queries ############################### */
+@media (max-width:500px){
+    html{
+        font-size: 50%;
+    }
+    .header .right .box2{
+        width: auto;
+    }
+    .header-content .main-content .content1,.content2{
+        float: none;    
+    }
+    .header-content .main-content .content2{
+        width: 100%;
+    }
+    .header-content .main-content .content1{
+        /* padding-left: 55%;
+         */
+         margin-left: 23%;
+    }
+    .header-content .last-content{
+        /* border: 2px solid black; */
+        display: block;
+    }
+    .showcase{
+        margin-top: -55%;
+    }
+    .l-content .l-content2{
+        width: 40%;
+    }
+}
+
